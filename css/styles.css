@@ -487,13 +487,16 @@ background-color: var(--accent-text-color);
   background-color: var(--bgc-hero-footer);
 }
 
+.page-footer {
+  display: flex;
+}
+
 .footer-logo:hover,
 .footer-logo:focus {
   color: var(--accent-text-color);
 }
 
 .address {
-
   color: var(--white-text-color);
 
   font-style: normal;
@@ -533,15 +536,6 @@ background-color: var(--accent-text-color);
 .footer-link:focus {
   color: var(--accent-text-color);
 }
-.page-footer{
-  display: flex;
-
-}
-
-.second{
-  padding-top: 12px;
-  padding-bottom: 40px;
-}
 
 .footer-title{
   margin: 0;
@@ -556,8 +550,11 @@ background-color: var(--accent-text-color);
   text-transform: uppercase;
 }
 
-.footer-item + .footer-item{
+.footer-item.second{
   margin-left: 70px;
+  margin-right: 93px;
+  padding-top: 12px;
+  padding-bottom: 40px;
 }
 
 .footer-networks{
